@@ -5,7 +5,7 @@ export const menuItems = [
     category: "Meal",
     price: 35,
     description: "A juicy grilled boerewors sausage on a fresh roll, served with optional sauce.",
-    image: "/images/boerewors-roll.jpg",
+    image: "/images/boerewors-roll.png",
   },
  
 
@@ -15,7 +15,7 @@ export const menuItems = [
     category: "Meal",
     price: 80,
     description: "Four crispy fried wings served with golden fries.",
-    image: "/images/wings.jpg",
+    image: "/images/wings.png",
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ export const menuItems = [
     category: "Meal",
     price: 105,
     description: "Five spicy wings served with fries — perfect for wing lovers.",
-    image: "/images/wings.jpg",
+    image: "/images/wings.png",
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ export const menuItems = [
     category: "Kota",
     price: 30,
     description: "Classic kota stuffed with a Russian sausage and fresh toppings.",
-    image: "/images/kota.jpg",
+    image: "/images/kota.png",
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ export const menuItems = [
     category: "Kota",
     price: 25,
     description: "A local favorite: melty cheese, polony and sauces in a toasted quarter loaf.",
-    image: "/images/kota.jpg",
+    image: "/images/kota.png",
   },
   {
     id: 6,
@@ -47,7 +47,7 @@ export const menuItems = [
     category: "Kota",
     price: 55,
     description: "Our signature Kota packed with meats, sauces, and township flavor.",
-    image: "/images/sum-local-kota.jpg",
+    image: "/images/sum -kota.png",
   },
   {
     id: 7,
@@ -55,7 +55,7 @@ export const menuItems = [
     category: "Kota",
     price: 40,
     description: "A traditional South African street food in a quarter loaf.",
-    image: "/images/kota.jpg",
+    image: "/images/kota.png",
   },
   {
     id: 8,
@@ -63,7 +63,7 @@ export const menuItems = [
     category: "Chips",
     price: 25,
     description: "Crispy golden fries — perfect for a light snack.",
-    image: "/images/small-chips.jpg",
+    image: "/images/small-chips.png",
   },
   {
     id: 9,
@@ -71,7 +71,7 @@ export const menuItems = [
     category: "Chips",
     price: 40,
     description: "A large portion of crispy fries for big appetites.",
-    image: "/images/small-chips.jpg",
+    image: "/images/small-chips.png",
   },
   {
     id: 10,
@@ -79,7 +79,7 @@ export const menuItems = [
     category: "Drinks",
     price: 17,
     description: "Classic Coca-Cola in a 440ml can.",
-    image: "/images/coca-cola.jpg",
+    image: "/images/coca-cola.png",
   },
   {
     id: 11,
@@ -95,7 +95,7 @@ export const menuItems = [
     category: "Drinks",
     price: 23,
     description: "Bold energy drink with a strong caffeine boost.",
-    image: "/images/monster.jpg",
+    image: "/images/monster.png",
   },
   {
     id: 13,
@@ -103,7 +103,7 @@ export const menuItems = [
     category: "Drinks",
     price: 10,
     description: "500ml bottled water — stay hydrated.",
-    image: "/images/water.jpg",
+    image: "/images/water.png",
   },
   {
     id: 14,
@@ -111,7 +111,7 @@ export const menuItems = [
     category: "Drinks",
     price: 20,
     description: "100% real fruit juice in a variety of flavors.",
-    image: "/images/liquifruit.jpg",
+    image: "/images/liquifruit.png",
   },
   {
     id: 15,
@@ -119,7 +119,7 @@ export const menuItems = [
     category: "Drinks",
     price: 18,
     description: "Isotonic sports drink for energy and hydration.",
-    image: "/images/powerade.jpg",
+    image: "/images/powerade.png",
   },
   {
     id: 16,
@@ -127,7 +127,7 @@ export const menuItems = [
     category: "Drinks",
     price: 20,
     description: "Refreshing fruit drink — smooth and light.",
-    image: "/images/cappy.jpg",
+    image: "/images/cappy.png",
   },
   {
     id: 17,
@@ -135,7 +135,7 @@ export const menuItems = [
     category: "Drinks",
     price: 16,
     description: "Affordable energy drink with a kick.",
-    image: "/images/reboost.jpg",
+    image: "/images/reboost.png",
   },
   {
     id: 18,
@@ -143,7 +143,7 @@ export const menuItems = [
     category: "Drinks",
     price: 17,
     description: "Popular energy drink with bold taste.",
-    image: "/images/score.jpg",
+    image: "/images/score.png",
   },
   {
     id: 19,
@@ -151,6 +151,6 @@ export const menuItems = [
     category: "Burger",
     price: 35,
     description: "House-styleburger with your choice of sauce.",
-    image: "/images/sum-local-burger.jpg",
+    image: "/images/sum-local-burger.png",
   },
 ];
