@@ -1,13 +1,9 @@
-// src/App.jsx
-import React from 'react'
-import MenuPage from './pages/MenuPage'
+import MenuPage from "./pages/MenuPage";
 
-function App() {
+export default function App() {
   return (
-    <div>
+    <main>
       <MenuPage />
-    </div>
-  )
+    </main>
+  );
 }
-
-export default App
