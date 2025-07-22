@@ -1,9 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Optional styling */
-body {
-  background-color: #000;
-  color: #fff;
-}
