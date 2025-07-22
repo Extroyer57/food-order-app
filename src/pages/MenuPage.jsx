@@ -1,16 +1,18 @@
-import { menuItems } from "@/lib/data";
 import { MenuItemCard } from "@/components/MenuItemCard";
+import { menuItems } from "@/lib/data";
+import { CartSheet } from "@/components/CartSheet";
 
-export default function Home() {
+export default function MenuPage() {
   const categories = ["Meal", "Kota", "Chips", "Drinks", "Burger"];
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-6 text-yellow-500">Menu</h1>
+    <div className="container mx-auto px-4 py-6">
       {categories.map((category) => (
         <section key={category} className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-white">{category}</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+          <h2 className="mb-6 text-3xl font-bold font-headline text-primary">
+            {category}
+          </h2>
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {menuItems
               .filter((item) => item.category === category)
               .map((item) => (
@@ -19,6 +21,7 @@ export default function Home() {
           </div>
         </section>
       ))}
+      <CartSheet />
     </div>
   );
 }
